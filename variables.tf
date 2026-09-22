@@ -18,7 +18,7 @@ variable "zone" {
 variable "network_name" {
   description = "VPC name"
   type        = string
-  default     = "terraform-lab-vpc01"
+  default     = "terraform-lab-vpc"
 }
 
 variable "subnet_cidr" {
@@ -30,5 +30,5 @@ variable "subnet_cidr" {
 variable "cluster_name" {
   description = "GKE cluster name"
   type        = string
-  default     = "terraform-lab-gke01"
+  default     = "terraform-lab-gke"
 }
